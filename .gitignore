@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+node_modules
+dist
+.env
+file.txt
+=======
+# Dependency Directories
+node_modules
+/server/node_modules # if you have a separate backend node_modules folder
+
+# Build/Output Directories
+dist
+build
+.parcel-cache
+
+# Log files
+*.log
+npm-debug.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+>>>>>>> a1e1fbbd91141fff5de089a52cf0da7fc531d5c4

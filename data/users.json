@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "userType": "parent",
+    "name": "Mrs. Adeola",
+    "username": "adeola",
+    "password": "password123",
+    "childrenIds": [
+      101,
+      1763352966253
+    ]
+  },
+  {
+    "id": 2,
+    "userType": "parent",
+    "name": "Mr. Samuel",
+    "username": "adeola",
+    "password": "xcba35",
+    "childrenIds": []
+  },
+  {
+    "id": 101,
+    "userType": "child",
+    "name": "Tobi Adeola",
+    "username": "tobi",
+    "password": "1234",
+    "examType": "BECE",
+    "parentId": 1
+  },
+  {
+    "id": 103,
+    "parentId": 1,
+    "name": "Jude",
+    "username": "jdkings",
+    "password": "1234",
+    "examType": "WAEC",
+    "userType": "child"
+  },
+  {
+    "id": 104,
+    "parentId": 1,
+    "name": "Jane",
+    "username": "jdkings",
+    "password": "1234",
+    "examType": "WAEC",
+    "userType": "child"
+  },
+  {
+    "id": 100,
+    "userType": "admin",
+    "name": "JD KINGS",
+    "username": "admin",
+    "password": "jwbbcdoe123@"
+  },
+  {
+    "id": 1763352966253,
+    "parentId": 1,
+    "name": "Jane",
+    "username": "janny",
+    "password": "1234",
+    "examType": "BECE",
+    "userType": "child"
+  }
+]
