@@ -14,8 +14,16 @@
     "id": 2,
     "userType": "parent",
     "name": "Mr. Samuel",
-    "username": "adeola",
+    "username": "user1",
     "password": "xcba35",
+    "childrenIds": []
+  },
+  {
+    "id": 3,
+    "userType": "parent",
+    "name": "Mrs. White",
+    "username": "user2",
+    "password": "vaxGa45",
     "childrenIds": []
   },
   {

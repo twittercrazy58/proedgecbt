@@ -119,7 +119,19 @@ const HomePage = () => {
         ) : (
         <div className="p-6 space-y-6">
       {children.length === 0 ? (
-        <p className="text-gray-600 text-center font-semibold">No children linked to your account yet.</p>
+       <div className="flex flex-col gap-3">
+          <p className="text-gray-600 text-center font-semibold">
+            No children linked to your account yet.
+          </p>
+
+          <button
+            onClick={() => navigate("/add-child")}
+            className="mx-auto bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-lg"
+          >
+            ➕ Add Child
+          </button>
+        </div>
+
       ) : (
         <div className="flex justify-center gap-2">
             <button
