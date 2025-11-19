@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const BASE_URL = window.location.hostname === "localhost" ? "http://localhost:5000" : "https://your-backend.onrender.com";
+const BASE_URL = window.location.hostname === "localhost" ? "http://localhost:5000" : "https://proedgecbt-1.onrender.com";
       // import.meta.env.VITE_API_URL || 
   
 

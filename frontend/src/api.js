@@ -1,4 +1,4 @@
-const BASE_URL =  window.location.hostname === "localhost" ? "http://localhost:5000" : "https://your-render-backend-url.onrender.com";  // change if hosted online
+const BASE_URL =  window.location.hostname === "localhost" ? "http://localhost:5000" : "https://proedgecbt-1.onrender.com";  // change if hosted online
   // const BASE_URL = import.meta.env.VITE_API_URL || "";
 
 // ---- Auth ----
